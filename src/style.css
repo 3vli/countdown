@@ -12,7 +12,7 @@
   --color-primary: #3440e4;
   --color-text: #000;
   --border-radius: 8px;
-  --shadow: -10px 10px 5px 0.5px rgba(0, 0, 0, 0.486);
+  --shadow: -10px 10px 20px 1px rgba(0, 0, 0, 0.486);
 }
 
 * {
@@ -71,7 +71,7 @@ body {
   font-size: 1rem;
   line-height: 1.6;
 }
- @media (min-width: 400px) {
+ @media (max-width: 425px) {
     .countdown-wrapper {
         padding: 5px 10px;
         width: 400px;
