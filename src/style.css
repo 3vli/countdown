@@ -71,7 +71,15 @@ body {
   font-size: 1rem;
   line-height: 1.6;
 }
-
+ @media (min-width: 400px) {
+    .countdown-wrapper {
+        padding: 5px 10px;
+        width: 400px;
+    }
+    .countdown-units .unit {
+        padding: 10px;
+    }
+ }
 @keyframes up-to-down {
   0% {
     transform: translateY(-30px);
